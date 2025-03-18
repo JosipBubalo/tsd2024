@@ -19,5 +19,25 @@ class Program
             Console.WriteLine($"The price for {goldPrice.Date} is {goldPrice.Price}");
         }
 
+        List<GoldPrice> lowestPrices = goldClient.GetLowestGoldPrices().GetAwaiter().GetResult();
+        Console.WriteLine("Top 3 lowest prices:");
+        foreach(var goldPrice in lowestPrices)
+        {
+            Console.WriteLine($"Price for {goldPrice.Date} is {goldPrice.Price}");
+        }
+
+        List<GoldPrice> highestPrices = goldClient.GetHighestGoldPrices().GetAwaiter().GetResult();
+        Console.WriteLine("Top 3 highest prices:");
+        foreach(var goldPrice in highestPrices)
+        {
+            Console.WriteLine($"Price for {goldPrice.Date} is {goldPrice.Price}");
+        }
+
+        _ = goldClient.AnalyzeGoldInvestment();
+        _ = goldClient.FindSecondTenOpeningDates();
+        _ = goldClient.CalculateAverageGoldPrices();
+        _ = goldClient.BestRoiOnGold();
+        //_ = goldClient.SavingListToXML();
+        _ = goldClient.ReadingXML();
     }
 }
