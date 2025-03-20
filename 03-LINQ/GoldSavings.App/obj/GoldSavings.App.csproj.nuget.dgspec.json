@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\GoldSavings.App.csproj": {}
+    "C:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\GoldSavings.App.csproj": {}
   },
   "projects": {
-    "c:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\GoldSavings.App.csproj": {
+    "C:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\GoldSavings.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\GoldSavings.App.csproj",
+        "projectUniqueName": "C:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\GoldSavings.App.csproj",
         "projectName": "GoldSavings.App",
-        "projectPath": "c:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\GoldSavings.App.csproj",
+        "projectPath": "C:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\GoldSavings.App.csproj",
         "packagesPath": "C:\\Users\\josip\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\obj\\",
+        "outputPath": "C:\\Users\\josip\\Desktop\\tsd2024\\03-LINQ\\GoldSavings.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
