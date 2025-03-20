@@ -11,6 +11,7 @@ class Program
 
         // Step 1: Get gold prices
         GoldDataService dataService = new GoldDataService();
+        GoldClient goldClient = new GoldClient();
         DateTime startDate = new DateTime(2024,09,18);
         DateTime endDate = DateTime.Now;
         List<GoldPrice> goldPrices = dataService.GetGoldPrices(startDate, endDate).GetAwaiter().GetResult();
@@ -32,5 +33,25 @@ class Program
 
         Console.WriteLine("\nGold Analyis Queries with LINQ Completed.");
 
+        List<GoldPrice> lowestPrices = goldClient.GetLowestGoldPrices().GetAwaiter().GetResult();
+        Console.WriteLine("Top 3 lowest prices:");
+        foreach(var goldPrice in lowestPrices)
+        {
+            Console.WriteLine($"Price for {goldPrice.Date} is {goldPrice.Price}");
+        }
+
+        List<GoldPrice> highestPrices = goldClient.GetHighestGoldPrices().GetAwaiter().GetResult();
+        Console.WriteLine("Top 3 highest prices:");
+        foreach(var goldPrice in highestPrices)
+        {
+            Console.WriteLine($"Price for {goldPrice.Date} is {goldPrice.Price}");
+        }
+
+        _ = goldClient.AnalyzeGoldInvestment();
+        _ = goldClient.FindSecondTenOpeningDates();
+        _ = goldClient.CalculateAverageGoldPrices();
+        _ = goldClient.BestRoiOnGold();
+        //_ = goldClient.SavingListToXML();
+        _ = goldClient.ReadingXML();
     }
 }
