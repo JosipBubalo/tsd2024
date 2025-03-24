@@ -1,0 +1,15 @@
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\bin\Debug\net8.0\SatisfactoryTask.exe
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\bin\Debug\net8.0\SatisfactoryTask.deps.json
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\bin\Debug\net8.0\SatisfactoryTask.runtimeconfig.json
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\bin\Debug\net8.0\SatisfactoryTask.dll
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\bin\Debug\net8.0\SatisfactoryTask.pdb
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\SatisfactoryTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\SatisfactoryTask.AssemblyInfoInputs.cache
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\SatisfactoryTask.AssemblyInfo.cs
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\SatisfactoryTask.csproj.CoreCompileInputs.cache
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\SatisfactoryTask.sourcelink.json
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\SatisfactoryTask.dll
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\refint\SatisfactoryTask.dll
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\SatisfactoryTask.pdb
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\SatisfactoryTask.genruntimeconfig.cache
+C:\Users\josip\Desktop\tsd2024\03-LINQ\SatisfactoryTask\obj\Debug\net8.0\ref\SatisfactoryTask.dll

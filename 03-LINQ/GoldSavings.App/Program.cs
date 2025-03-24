@@ -53,5 +53,12 @@ class Program
         _ = goldClient.BestRoiOnGold();
         //_ = goldClient.SavingListToXML();
         _ = goldClient.ReadingXML();
+
+        //Task 2 - Satisfactory
+
+        Func<int, bool> isLeapYear = year => (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+
+        Console.WriteLine($"{startDate.Year} is a leap year: {isLeapYear(startDate.Year)}");
+        Console.WriteLine($"{endDate.Year} is a leap year: {isLeapYear(endDate.Year)}");
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSavings.App", "GoldSavings.App\GoldSavings.App.csproj", "{1EFD8451-BB7C-43FA-9488-CA63E92201C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatisfactoryTask", "SatisfactoryTask\SatisfactoryTask.csproj", "{81B29197-83D7-4011-8F70-EC688E5B73BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1EFD8451-BB7C-43FA-9488-CA63E92201C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFD8451-BB7C-43FA-9488-CA63E92201C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFD8451-BB7C-43FA-9488-CA63E92201C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B29197-83D7-4011-8F70-EC688E5B73BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B29197-83D7-4011-8F70-EC688E5B73BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B29197-83D7-4011-8F70-EC688E5B73BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B29197-83D7-4011-8F70-EC688E5B73BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
