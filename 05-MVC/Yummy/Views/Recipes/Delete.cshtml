@@ -1,0 +1,8 @@
+﻿@model Yummy.Models.Recipe
+<h2>Delete Recipe</h2>
+<p>Are you sure you want to delete <strong>@Model.Name</strong>?</p>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="ID" />
+    <button type="submit">Yes, delete</button>
+</form>
+<a asp-action="Index">Cancel</a>

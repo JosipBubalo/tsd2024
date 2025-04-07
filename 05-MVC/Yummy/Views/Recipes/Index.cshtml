@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Yummy.Models.Recipe>
+@{
+    ViewData["Title"] = "Recipes";
+}
+<h1>Yummy Recipes</h1>
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Time</th>
+        <th>Difficulty</th>
+        <th>Likes</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Time</td>
+            <td>@item.Difficulty</td>
+            <td>@item.Likes</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.ID">View</a> |
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

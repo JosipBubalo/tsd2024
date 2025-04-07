@@ -1,0 +1,35 @@
+﻿@model Yummy.Models.Recipe
+<h2>Edit Recipe</h2>
+<form asp-action="Edit">
+    <input type="hidden" asp-for="ID" />
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label>Time</label>
+        <input asp-for="Time" />
+    </div>
+    <div>
+        <label>Difficulty</label>
+        <input asp-for="Difficulty" />
+    </div>
+    <div>
+        <label>Likes</label>
+        <input asp-for="Likes" />
+    </div>
+    <div>
+        <label>Ingredients</label>
+        <textarea asp-for="Ingredients"></textarea>
+    </div>
+    <div>
+        <label>Process</label>
+        <textarea asp-for="Process"></textarea>
+    </div>
+    <div>
+        <label>Tips</label>
+        <textarea asp-for="Tips"></textarea>
+    </div>
+    <button type="submit">Save</button>
+</form>
+<a asp-action="Index">Back to list</a>
