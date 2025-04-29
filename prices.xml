@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Price document-->
+<Prices>
+  <price Date="2025-03-03T00:00:00" Price="364.46" />
+  <price Date="2025-03-04T00:00:00" Price="371.52" />
+  <price Date="2025-03-05T00:00:00" Price="369.45" />
+  <price Date="2025-03-06T00:00:00" Price="363.26" />
+  <price Date="2025-03-07T00:00:00" Price="363.34" />
+  <price Date="2025-03-10T00:00:00" Price="362.33" />
+  <price Date="2025-03-11T00:00:00" Price="360.93" />
+  <price Date="2025-03-12T00:00:00" Price="360.87" />
+  <price Date="2025-03-13T00:00:00" Price="361.98" />
+  <price Date="2025-03-14T00:00:00" Price="368.79" />
+  <price Date="2025-03-17T00:00:00" Price="368.72" />
+</Prices>
